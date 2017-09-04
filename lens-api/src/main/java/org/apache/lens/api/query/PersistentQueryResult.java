@@ -84,8 +84,7 @@ public class PersistentQueryResult extends QueryResult {
     }
     if (httpResultUrl != null) {
       sb.append(" Downloadable from ").append(httpResultUrl).append(".");
-    }
-    else {
+    } else {
       sb.append(" Result can not be downloaded directly. It can only be consumed from provided File System location");
     }
     return sb.toString();
